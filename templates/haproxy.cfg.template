@@ -22,7 +22,7 @@ backend mongooseim
 	option	dontlognull
 	balance	roundrobin
 	option tcp-check
-    {{servers}}
+	{{servers}}
 
 listen stats
   bind *:9000
